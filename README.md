@@ -18,6 +18,10 @@ uptime, and can keep a one-row HUD on top of whatever you're watching.
 
 Refreshes every second on the dashboard, every two seconds on the HUD. Both stop when not visible.
 
+It installs from an APK like any other app, so it sits on the TV shelf next to your streaming apps:
+
+![tvstat on the launcher shelf](screenshots/home.png)
+
 ## The CPU number, and why it's computed the way it is
 
 The obvious source is `/proc/stat`, and on Android it is **blocked for the app domain** — the shell
