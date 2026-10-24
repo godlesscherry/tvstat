@@ -53,6 +53,8 @@ A one-row overlay in the top-left: `CPU 16% (1.20G)   RAM 68%   DISK 65%`. It is
 `TYPE_APPLICATION_OVERLAY` with `FLAG_NOT_FOCUSABLE | FLAG_NOT_TOUCHABLE`, so it never takes focus
 and never eats a remote press.
 
+![The HUD over the launcher](screenshots/hud.png)
+
 It runs in a foreground service, which means Android requires an ongoing notification for it — that
 is a platform rule, not a choice.
 
