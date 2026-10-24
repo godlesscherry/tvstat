@@ -1,0 +1,15 @@
+# build output
+build/
+app/out/
+
+# signing material — never commit this
+*.keystore
+*.jks
+
+# local toolchain, if you drop one in the repo root
+sdk/
+jdk/
+
+.DS_Store
+*.iml
+.idea/
